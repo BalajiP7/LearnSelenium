@@ -23,7 +23,7 @@ public class Main {
         driver.findElement(By.id("password")).sendKeys("12345678");
         driver.findElement(By.id("login")).click();
 
-        Thread.sleep(3000);
+        Thread.sleep(5000);
         driver.close();
 
     }
