@@ -22,7 +22,6 @@ public class Sample {
         driver.findElement(By.id("username")).sendKeys("daneil");
         driver.findElement(By.id("password")).sendKeys("12345678");
         driver.findElement(By.id("login")).click();
-
         Thread.sleep(5000);
         driver.close();
 
